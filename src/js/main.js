@@ -1,6 +1,11 @@
 import getTimeGreeting, { getGreeting } from './greeting.js';
 import { createCounter, getStatus } from './counter.js';
 
+// Greeting
+const greetingEl = document.getElementById('greeting');
+greetingEl.textContent = `${getTimeGreeting()}`;
+
+// Counter
 const counter = createCounter(0);
 
 const countEl  = document.getElementById('count');
