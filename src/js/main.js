@@ -1,4 +1,4 @@
-import getTimeGreeting, { getGreeting } from './greeting.js';
+import getTimeGreeting from './greeting.js';
 import { createCounter, getStatus } from './counter.js';
 
 // Greeting
